@@ -102,7 +102,7 @@ export default function Header() {
               </div>
               <div>
                 <span className="text-white dark:text-white font-black tracking-[0.12em] text-sm lg:text-base uppercase block leading-tight">
-                  Sadir Auto
+                  SafirAuto
                 </span>
                 <span className="text-yellow-600 dark:text-yellow-400 text-[9px] lg:text-[10px] tracking-[0.25em] uppercase font-semibold block">
                   L&apos;excellence automobile

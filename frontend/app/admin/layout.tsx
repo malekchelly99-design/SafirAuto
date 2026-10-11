@@ -64,7 +64,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               <span className="text-gray-950 font-black text-base">S</span>
             </div>
             <div>
-              <span className="text-white font-black tracking-wider text-sm uppercase block leading-tight">Sadir Auto</span>
+              <span className="text-white font-black tracking-wider text-sm uppercase block leading-tight">SafirAuto</span>
               <span className="text-yellow-600 text-[9px] tracking-widest uppercase font-medium">Administration</span>
             </div>
           </Link>

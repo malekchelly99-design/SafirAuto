@@ -12,13 +12,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Sadir Auto — L\'Excellence Automobile',
-    template: '%s | Sadir Auto',
+    default: 'SafirAuto — L\'Excellence Automobile',
+    template: '%s | SafirAuto',
   },
-  description: 'Sadir Auto, votre concessionnaire premium spécialisé dans la vente de véhicules de prestige — Porsche, Ferrari, Lamborghini, Bentley et bien plus.',
-  keywords: ['Sadir Auto', 'voitures de prestige', 'véhicules premium', 'concessionnaire', 'Porsche', 'Ferrari', 'Lamborghini', 'Bentley'],
+  description: 'SafirAuto, votre concessionnaire premium spécialisé dans la vente de véhicules de prestige — Porsche, Ferrari, Lamborghini, Bentley et bien plus.',
+  keywords: ['SafirAuto', 'voitures de prestige', 'véhicules premium', 'concessionnaire', 'Porsche', 'Ferrari', 'Lamborghini', 'Bentley'],
   openGraph: {
-    title: 'Sadir Auto',
+    title: 'SafirAuto',
     description: 'L\'excellence automobile à votre portée',
     type: 'website',
     locale: 'fr_FR',
