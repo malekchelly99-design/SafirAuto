@@ -1,5 +1,5 @@
-﻿"""
-Django settings for CapAuto backend.
+"""
+Django settings for SafirAuto backend.
 """
 
 from pathlib import Path

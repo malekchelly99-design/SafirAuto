@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
@@ -168,7 +168,7 @@ export default function ConnexionPage() {
                 <span className="text-white font-black text-lg tracking-tighter">C</span>
               </div>
               <div>
-                <span className="text-white font-black tracking-[0.18em] text-sm uppercase leading-none block">CapAuto</span>
+                <span className="text-white font-black tracking-[0.18em] text-sm uppercase leading-none block">SafirAuto</span>
                 <span className="text-white/50 text-[9px] tracking-[0.3em] uppercase">L&apos;excellence automobile</span>
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function ConnexionPage() {
             <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#eab308] z-10" />
             <Image
               src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80&auto=format&fit=crop"
-              alt="CapAuto"
+              alt="SafirAuto"
               fill
               priority
               className="object-cover"
@@ -215,7 +215,7 @@ export default function ConnexionPage() {
               <div className="w-8 h-8 bg-[#eab308] flex items-center justify-center">
                 <span className="text-white font-black text-base">C</span>
               </div>
-              <span className="text-white font-black tracking-wider text-sm uppercase">CapAuto</span>
+              <span className="text-white font-black tracking-wider text-sm uppercase">SafirAuto</span>
             </div>
           </div>
 
@@ -238,7 +238,7 @@ export default function ConnexionPage() {
                   mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
                 }`}
               >
-                <p className="text-[#eab308] font-black text-lg tracking-[0.25em] uppercase">CapAuto</p>
+                <p className="text-[#eab308] font-black text-lg tracking-[0.25em] uppercase">SafirAuto</p>
                 <p className="text-gray-400 text-xs tracking-[0.2em] uppercase mt-0.5">Espace membre</p>
               </div>
 
@@ -480,7 +480,7 @@ export default function ConnexionPage() {
 
           {/* Footer */}
           <p className="text-center pb-6 text-[10px] text-gray-300 tracking-wider">
-            É {new Date().getFullYear()} CapAuto É Tous droits rÉservÉs
+            É {new Date().getFullYear()} SafirAuto É Tous droits rÉservÉs
           </p>
         </div>
       </div>

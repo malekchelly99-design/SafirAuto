@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  /* CapAuto brand palette — Dark Gray & Yellow */
+  /* SafirAuto brand palette — Dark Gray & Yellow */
   --bg-primary: #1a1d23;
   --bg-secondary: #13161b;
   --bg-card: #1c2026;

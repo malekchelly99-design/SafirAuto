@@ -1,11 +1,11 @@
-﻿import { Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const TESTIMONIALS = [
   {
     name: 'Alexandre Dubois',
     role: 'Chef d\'entreprise',
-    text: 'Service exceptionnel, Équipe professionnelle et É l\'Écoute. Mon Porsche 911 GTS est absolument parfaite. Je recommande vivement CapAuto.',
+    text: 'Service exceptionnel, Équipe professionnelle et É l\'Écoute. Mon Porsche 911 GTS est absolument parfaite. Je recommande vivement SafirAuto.',
     rating: 5,
     vehicle: 'Porsche 911 GTS',
   },
@@ -19,7 +19,7 @@ const TESTIMONIALS = [
   {
     name: 'Philippe Laurent',
     role: 'Entrepreneur',
-    text: 'TroisiÉme achat chez CapAuto. Toujours la mÉme qualitÉ, la mÉme attention aux dÉtails. Une confiance totale dans leur sÉlection.',
+    text: 'TroisiÉme achat chez SafirAuto. Toujours la mÉme qualitÉ, la mÉme attention aux dÉtails. Une confiance totale dans leur sÉlection.',
     rating: 5,
     vehicle: 'Bentley Continental GT',
   },

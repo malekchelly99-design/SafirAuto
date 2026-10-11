@@ -15,7 +15,7 @@ export default function AProposPage() {
         <div className="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10">
           <div>
             <h2 className="text-white dark:text-white font-black text-2xl mb-4">L'Excellence Automobile Depuis 2009</h2>
-            <p className="text-gray-300 dark:text-gray-400 leading-relaxed">CapAuto est née d'une passion absolue pour l'automobile de prestige. Fondée en 2009 sur les Champs-Élysées, notre maison s'est imposée comme la référence parisienne des véhicules d'exception.</p>
+            <p className="text-gray-300 dark:text-gray-400 leading-relaxed">SafirAuto est née d'une passion absolue pour l'automobile de prestige. Fondée en 2009 sur les Champs-Élysées, notre maison s'est imposée comme la référence parisienne des véhicules d'exception.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[{ v: '15+', l: "Années d'expertise" }, { v: '500+', l: 'Véhicules vendus' }, { v: '98%', l: 'Clients satisfaits' }].map(({ v, l }) => (

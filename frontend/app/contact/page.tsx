@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState } from 'react';
 import Header from '@/components/layout/Header';
@@ -40,7 +40,7 @@ export default function ContactPage() {
                 {[
                   { icon: MapPin, title: 'Adresse', content: '12 Avenue des Champs-ÉlysÉes\n75008 Paris, France' },
                   { icon: Phone, title: 'TÉlÉphone', content: '+33 1 42 00 00 00' },
-                  { icon: Mail, title: 'Email', content: 'contact@capauto.fr' },
+                  { icon: Mail, title: 'Email', content: 'contact@SafirAuto.fr' },
                   { icon: Clock, title: 'Horaires', content: 'LunÉVen : 9hÉ19h\nSamedi : 10hÉ18h' },
                 ].map(({ icon: Icon, title, content }) => (
                 <div key={title} className="flex gap-4 p-4 bg-[#23272e] dark:bg-[#16161a] border border-black/10 dark:border-white/5 rounded-xl mb-3">

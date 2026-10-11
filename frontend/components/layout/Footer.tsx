@@ -17,12 +17,12 @@ export default function Footer() {
                 <span className="text-white font-black text-lg">C</span>
               </div>
               <div>
-                <span className="text-white dark:text-white font-black tracking-[0.12em] text-sm uppercase">CapAuto</span>
+                <span className="text-white dark:text-white font-black tracking-[0.12em] text-sm uppercase">SafirAuto</span>
                 <span className="text-[#eab308] text-[10px] tracking-[0.2em] uppercase block">L&apos;excellence automobile</span>
               </div>
             </div>
             <p className="text-gray-300 dark:text-gray-500 text-sm leading-relaxed mb-6">
-              CapAuto, votre concessionnaire premium spécialisé dans la vente de véhicules de prestige.
+              SafirAuto, votre concessionnaire premium spécialisé dans la vente de véhicules de prestige.
               Plus de 10 ans d&apos;expertise au service des passionnés d&apos;automobiles.
             </p>
             <div className="flex items-center gap-3">
@@ -88,7 +88,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#eab308] flex-shrink-0" />
-                <a href="mailto:contact@capauto.fr" className="text-gray-300 dark:text-gray-500 hover:text-[#eab308] dark:hover:text-white text-sm transition-colors">contact@capauto.fr</a>
+                <a href="mailto:contact@SafirAuto.fr" className="text-gray-300 dark:text-gray-500 hover:text-[#eab308] dark:hover:text-white text-sm transition-colors">contact@SafirAuto.fr</a>
               </li>
             </ul>
             <div className="mt-6 p-4 bg-black/3 dark:bg-[#1a1d23]/3 rounded-lg border border-black/5 dark:border-white/5">
@@ -104,7 +104,7 @@ export default function Footer() {
       <div className="border-t border-black/5 dark:border-white/5">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-300 dark:text-gray-500 text-xs">
-            © {new Date().getFullYear()} CapAuto. Tous droits réservés.
+            © {new Date().getFullYear()} SafirAuto. Tous droits réservés.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/mentions-legales" className="text-gray-300 dark:text-gray-500 hover:text-[#eab308] dark:hover:text-gray-400 text-xs transition-colors">Mentions légales</Link>

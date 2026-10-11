@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 
-// Hero slides — different cars for CapAuto
+// Hero slides — different cars for SafirAuto
 const SLIDES = [
   {
     image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=90&auto=format&fit=crop',

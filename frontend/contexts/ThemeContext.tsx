@@ -16,7 +16,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (typeof window === 'undefined') return 'dark';
     const stored = localStorage.getItem(THEME_STORAGE_KEY);
     if (stored === 'light' || stored === 'dark') return stored;
-    // CapAuto defaults to dark theme
+    // SafirAuto defaults to dark theme
     return 'dark';
   });
 

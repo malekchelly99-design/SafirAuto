@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -101,7 +101,7 @@ export default function AdminDashboard() {
             <div className="w-1 h-6 bg-[#eab308] rounded-full" />
             <h1 className="text-2xl lg:text-3xl font-black text-white tracking-tight">Tableau de bord</h1>
           </div>
-          <p className="text-gray-400 text-sm pl-3">Vue d'ensemble de votre activité CapAuto</p>
+          <p className="text-gray-400 text-sm pl-3">Vue d'ensemble de votre activité SafirAuto</p>
         </div>
         <Link
           href="/admin/vehicules/nouveau"
@@ -258,13 +258,13 @@ export default function AdminDashboard() {
             ))}
           </div>
 
-          {/* CapAuto branding block */}
+          {/* SafirAuto branding block */}
           <div className="mt-6 p-4 bg-[#eab308] rounded-xl text-white">
             <div className="flex items-center gap-2 mb-2">
               <div className="w-6 h-6 bg-[#1a1d23] rounded-md flex items-center justify-center">
                 <span className="text-[#eab308] font-black text-xs">C</span>
               </div>
-              <span className="font-black text-sm tracking-wide">CapAuto</span>
+              <span className="font-black text-sm tracking-wide">SafirAuto</span>
             </div>
             <p className="text-white/80 text-xs leading-relaxed">
               Tableau de bord administrateur É GÉrez votre catalogue et suivez votre activitÉ.

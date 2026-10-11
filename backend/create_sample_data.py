@@ -1,4 +1,4 @@
-﻿"""
+"""
 Script to seed the XLSX files with sample vehicles and brands.
 Run: python create_sample_data.py
 """
@@ -451,12 +451,12 @@ from django.contrib.auth.models import User
 if not User.objects.filter(username='admin').exists():
     User.objects.create_superuser(
         username='admin',
-        email='admin@capauto.fr',
+        email='admin@SafirAuto.fr',
         password='Admin@2024!',
         first_name='Admin',
         last_name='VDL'
     )
-    print("✓ Admin user created: admin@capauto.fr / Admin@2024!")
+    print("✓ Admin user created: admin@SafirAuto.fr / Admin@2024!")
 else:
     print("✓ Admin user already exists")
 
