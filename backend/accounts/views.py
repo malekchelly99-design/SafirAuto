@@ -19,9 +19,9 @@ def login_view(request):
     email = serializer.validated_data['email']
     password = serializer.validated_data['password']
 
-    # Look up user by email
+    # Look up user by email (case-insensitive)
     try:
-        user = User.objects.get(email=email)
+        user = User.objects.get(email__iexact=email)
     except User.DoesNotExist:
         return Response(
             {'error': 'Identifiants invalides.'},
