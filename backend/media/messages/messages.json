@@ -1,0 +1,61 @@
+[
+  {
+    "id": "ed21d550-7bd9-4658-b811-2027fa9b0573",
+    "name": "salah",
+    "email": "salah@gmail.com",
+    "phone": "",
+    "subject": "Question sur Aston Martin DBX 707",
+    "message": "discount code",
+    "vehicle_id": "ee38c561-7769-46ce-bc74-de90008addef",
+    "vehicle_ref": "Aston Martin DBX 707",
+    "user_id": "3",
+    "read": true,
+    "replies": [],
+    "created_at": "2026-10-10T11:02:35.074805"
+  },
+  {
+    "id": "e0cee0c6-1021-4d5c-a9d7-c19349d5f0ea",
+    "name": "dhia",
+    "email": "dhia@gmail.com",
+    "phone": "",
+    "subject": "Question sur Bentley Bentayga EWB Azure",
+    "message": "ect ce que possible?",
+    "vehicle_id": "e8ce9ff6-e015-46e2-9d99-6b164b14d166",
+    "vehicle_ref": "Bentley Bentayga EWB Azure",
+    "user_id": "2",
+    "read": true,
+    "replies": [
+      {
+        "id": "d7889785-58f4-4e65-abac-22d958812f26",
+        "text": "oui c'est possible",
+        "author": "Admin",
+        "created_at": "2026-10-10T11:03:04.514902"
+      },
+      {
+        "id": "2fd2f91f-8c19-4b75-a92f-dc800d74c609",
+        "text": "ok nchallah",
+        "author": "dhia",
+        "created_at": "2026-10-10T11:12:33.889721"
+      },
+      {
+        "id": "5e0ef3bb-b5c3-4ba5-be09-803307671bc7",
+        "text": "ija hez",
+        "author": "Admin",
+        "created_at": "2026-10-10T11:15:37.613193"
+      },
+      {
+        "id": "320b00d7-cfc0-45cb-bc00-7e6e7d233380",
+        "text": "ghodwe",
+        "author": "dhia",
+        "created_at": "2026-10-10T11:16:13.063772"
+      },
+      {
+        "id": "caf04488-5cbd-4d12-b735-54e05c0cf8f8",
+        "text": "aaaa",
+        "author": "Admin",
+        "created_at": "2026-10-10T11:16:43.048119"
+      }
+    ],
+    "created_at": "2026-10-10T11:01:16.095143"
+  }
+]
